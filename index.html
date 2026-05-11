@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio data resume web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        /* Attempting to simulate a common sans-serif font for consistency with the Docs format */
+        body {
+            font-family: 'Pacifico', cursive;
+            line-height: 1.8;
+            margin: 0;
+            padding: 40px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .container {
+            background-color: white;
+            padding: 50px 80px;
+            border-radius: 8px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: #34495e;
+            border-left: 5px solid #3498db;
+            padding-left: 15px;
+            margin-top: 30px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 12px;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        li::before {
+            content: "✦";
+            position: absolute;
+            left: 0;
+            color: #3498db;
+        }
+
+        .header-section {
+            display: flex;
+            align-items: baseline;
+            gap: 15px;
+            border-bottom: 2px solid #eee;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+        }
+
+        .header-section h1 {
+            border-bottom: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-section p {
+            margin: 0;
+            font-size: 1.2em;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-section">
+            <h1>Hi, I am babul</h1>
+            <p>, from Assam, India</p>
+        </div>
+        <p>Mobile & Web Developer || Full time <b>Pharmacist</b>.</p>
+
+        <h3>My Recent Project:</h3>
+        <ul>
+            <li><a href="https://storeit-peach.vercel.app/" target="_blank" rel="noopener noreferrer">StoreIt</a> : A
+                A Cloud storage Web Application.</li>
+            <li>Lipi : React Native(Expo) a Productivity Application.</li>
+            <li>Social QR Generator : Expo Application for creating customized QR Generator for Social media and QR
+                Scanner
+                and generator.</li>
+            <li><a href="https://audio-lab-livid.vercel.app/" target="_blank" rel="noopener noreferrer">Audio Lab</a>: A
+                text to AI natural audio generator NextJS
+                Web
+                Application.</li>
+            <li><a href="https://talk-to-pdf-ten.vercel.app/" target="_blank" rel="noopener noreferrer">Bookified</a> :
+                Talk to pdf , ask questions and get AI
+                generated answer.</li>
+            <li><a href="https://babulmiah.vercel.app/" target="_blank" rel="noopener noreferrer">Resume</a> : Resume
+                site.</li>
+            <li><a href="https://anonfeedback-nextjs.vercel.app/dashboard" target="_blank"
+                    rel="noopener noreferrer">AnonFeed</a> : An anonymous feedback taking
+                site.
+            </li>
+        </ul>
+
+        <h3>My Work Experience:</h3>
+        <ul>
+            <li>Sen. Pharmacist, Darrang Cancer Center, Tata 1mg Healthcare Solutions Pvt. Ltd. - 2021-2023</li>
+            <li>Pharmacist - Reliance Retail Pvt. Ltd. - Nedmeds Pharmacy. - 2020-2021</li>
+            <li>Pharmacist - Tyroon Tea Pvt. Ltd. - 2018-2020</li>
+        </ul>
+
+        <h3>My Education:</h3>
+        <ul>
+            <li>Currently <a>M.Com</a> - from KKHSOU.</li>
+            <li><a>B.C.A</a> - KKHSOU.</li>
+            <li><a>D.Pharm</a> - GMCH - GHY.</li>
+            <li>H.S. - JMHS School, Mankachar.</li>
+        </ul>
+    </div>
+</body>
+
+</html>
